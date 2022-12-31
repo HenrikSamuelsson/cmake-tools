@@ -42,3 +42,24 @@ cmake version 3.25.1
 
 Output should be a number like above or higher.
 
+### Check Compiler
+
+CMake will use an existing compiler so need to ensure that one is installed on the computer that runs CMake.
+
+Check for Microsoft C++ compiler:
+
+TBD
+
+Check for GCC:
+
+```txt
+$ gcc --version
+gcc.exe (x86_64-posix-seh-rev0, Built by MinGW-W64 project) 8.1.0
+Copyright (C) 2018 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+```
+
+### Run CMake Quick Start
+
+Open Command Palette in Visual Studio Code `Ctrl + Shift + p` and run `CMake: Quick Start`.
